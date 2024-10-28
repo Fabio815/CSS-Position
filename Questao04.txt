@@ -1,0 +1,26 @@
+Para incluir uma estilização CSS, podemos incluir através da tag style diretamente no HTML dentro do head;
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 03</title>
+    <style>
+        #lorem__azul{
+            color: blue;
+        }
+        #lerem__vermelho{
+            color: red;
+            font-size: small;
+        }
+        #lorem__rosa{
+            color: pink;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+Podemos incluir diretamente na do HTML:
+<span font-family: Georgia, 'Times New Roman', Times, serif;>Cachorro</span>
+
+Também podemos incluir com um link, nesse caso o documento CSS fica separado do HTML.
